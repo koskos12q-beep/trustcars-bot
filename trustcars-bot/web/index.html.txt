@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>TrustCars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay">
+    <h1>Выберите авто</h1>
+
+    <select>
+      <option>BMW X5</option>
+      <option>Mercedes GLC</option>
+      <option>Audi A6</option>
+      <option>Toyota Camry</option>
+      <option>Volkswagen Touareg</option>
+    </select>
+
+    <button onclick="sendContact()">Оставить заявку</button>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

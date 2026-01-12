@@ -1,0 +1,5 @@
+const tg = window.Telegram.WebApp;
+
+function sendContact() {
+  tg.requestContact();
+}
